@@ -31,7 +31,7 @@ public class FirstAndroidTest {
         //caps.setCapability("newCommandTimeout", "120000");
 
 
-        driver = new AndroidDriver(new URL("http://192.168.1.48:4723/"), caps);
+        driver = new AndroidDriver(new URL("http://0.0.0.0:4723/"), caps);
         //String sessionId = ((RemoteWebDriver) driver).getSessionId().toString();
     }
 
